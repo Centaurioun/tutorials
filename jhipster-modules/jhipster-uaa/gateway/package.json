@@ -31,7 +31,8 @@
     "rxjs-compat": "6.1.0",
     "swagger-ui": "2.2.10",
     "tslib": "1.9.3",
-    "zone.js": "0.8.26"
+    "zone.js": "0.8.26",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@angular/cli": "6.1.2",
@@ -41,7 +42,7 @@
     "@types/node": "9.4.7",
     "angular-router-loader": "0.8.5",
     "angular2-template-loader": "0.6.2",
-    "browser-sync": "2.24.6",
+    "browser-sync": "2.24.7",
     "browser-sync-webpack-plugin": "2.2.2",
     "cache-loader": "1.2.2",
     "codelyzer": "4.2.1",
@@ -51,7 +52,7 @@
     "file-loader": "1.1.11",
     "fork-ts-checker-webpack-plugin": "0.4.1",
     "friendly-errors-webpack-plugin": "1.7.0",
-    "generator-jhipster": "5.4.2",
+    "generator-jhipster": "7.0.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
     "husky": "1.1.0",
@@ -122,10 +123,13 @@
     "webpack:prod": "npm run cleanup && npm run webpack:prod:main && npm run clean-www",
     "webpack:test": "npm run test",
     "webpack-dev-server": "node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"
+    "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "jestSonar": {
     "reportPath": "target/test-results/jest",
     "reportFile": "TESTS-results-sonar.xml"
-  }
+  },
+  "snyk": true
 }
