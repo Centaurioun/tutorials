@@ -67,7 +67,7 @@
     </dependencies>
 
     <properties>
-        <mysql.version>8.0.21</mysql.version>
+        <mysql.version>8.0.31</mysql.version>
         <hikari.version>4.0.3</hikari.version>
         <hibernate.version>5.6.1.Final</hibernate.version>
         <spring-boot.version>2.6.1</spring-boot.version>
