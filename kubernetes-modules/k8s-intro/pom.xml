@@ -40,7 +40,7 @@
     </build>
 
     <properties>
-        <client-java.version>11.0.0</client-java.version>
+        <client-java.version>18.0.0</client-java.version>
     </properties>
 
 </project>
