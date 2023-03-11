@@ -55,7 +55,7 @@
     </dependencies>
 
     <properties>
-        <helidon.version>0.10.4</helidon.version>
+        <helidon.version>2.6.0</helidon.version>
     </properties>
 
 </project>
