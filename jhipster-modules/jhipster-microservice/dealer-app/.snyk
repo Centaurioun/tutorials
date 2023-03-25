@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - generator-jhipster > jhipster-core > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > async > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > gruntfile-editor > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-environment > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yo > yeoman-environment > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-test > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > gruntfile-editor > ast-query > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yo > yeoman-environment > grouped-queue > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yo > yeoman-environment > inquirer > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-test > inquirer > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yo > tabtab > inquirer > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-test > yeoman-environment > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-test > yeoman-environment > grouped-queue > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
+    - generator-jhipster > yeoman-generator > yeoman-test > yeoman-environment > inquirer > lodash:
+        patched: '2023-03-25T16:40:52.266Z'
