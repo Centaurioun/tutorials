@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - generator-jhipster > yeoman-environment > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > yeoman-generator > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > insight > async > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > yeoman-generator > async > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > insight > inquirer > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > yeoman-environment > inquirer > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > tabtab > inquirer > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > yeoman-environment > grouped-queue > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > yeoman-generator > yeoman-environment > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > jhipster-core > winston > async > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
+    - generator-jhipster > jhipster-core > lodash:
+        patched: '2023-03-29T01:46:32.808Z'
