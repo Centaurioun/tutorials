@@ -86,7 +86,7 @@
     <properties>
         <springfox.version>3.0.0</springfox.version>
         <swagger-codegen-maven-plugin.version>3.0.34</swagger-codegen-maven-plugin.version>
-        <springdoc.version>1.6.10</springdoc.version>
+        <springdoc.version>1.7.0</springdoc.version>
         <swagger-maven-plugin.version>3.1.1</swagger-maven-plugin.version>
         <start-class>com.baeldung.tworesponses.Application</start-class>
     </properties>
