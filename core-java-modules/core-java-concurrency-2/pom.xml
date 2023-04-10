@@ -79,12 +79,10 @@
                         <configuration>
                             <finalName>jcstress</finalName>
                             <transformers>
-                                <transformer
-                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>org.openjdk.jcstress.Main</mainClass>
                                 </transformer>
-                                <transformer
-                                    implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>META-INF/TestList</resource>
                                 </transformer>
                             </transformers>
@@ -99,7 +97,7 @@
         <threadweaver.version>0.2</threadweaver.version>
         <tempus-fugit.version>1.1</tempus-fugit.version>
         <multithreadedtc.version>1.01</multithreadedtc.version>
-        <jcstress-core.version>0.5</jcstress-core.version>
+        <jcstress-core.version>0.15</jcstress-core.version>
     </properties>
 
 </project>
