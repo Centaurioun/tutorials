@@ -30,7 +30,7 @@
 
     <properties>
         <xstream.version>1.4.18</xstream.version>
-        <jettison.version>1.4.1</jettison.version>
+        <jettison.version>1.5.2</jettison.version>
     </properties>
 
 </project>
