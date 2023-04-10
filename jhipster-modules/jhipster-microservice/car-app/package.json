@@ -1,5 +1,13 @@
 {
   "devDependencies": {
-    "generator-jhipster": "4.0.8"
+    "generator-jhipster": "7.0.0"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
