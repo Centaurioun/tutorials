@@ -79,15 +79,22 @@
             <artifactId>jmh-generator-annprocess</artifactId>
             <version>${jmh-generator.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.testcontainers</groupId>
+            <artifactId>mysql</artifactId>
+            <version>${testcontainers.mysql.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <properties>
         <org.springframework.version>5.0.2.RELEASE</org.springframework.version>
-        <org.springframework.data.version>1.10.6.RELEASE</org.springframework.data.version>
+        <org.springframework.data.version>1.11.11.RELEASE</org.springframework.data.version>
         <tomcat-dbcp.version>9.0.0.M26</tomcat-dbcp.version>
         <mysql.version>6.0.6</mysql.version>
         <mariaDB4j.version>2.2.3</mariaDB4j.version>
-        <h2.version>1.4.200</h2.version>
+        <h2.version>2.1.214</h2.version>
+        <testcontainers.mysql.version>1.17.6</testcontainers.mysql.version>
     </properties>
 
 </project>
