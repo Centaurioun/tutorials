@@ -130,7 +130,7 @@
         <wsdl4j.version>1.6.3</wsdl4j.version>
         <feign.form.spring.version>3.8.0</feign.form.spring.version>
         <spring.cloud.openfeign.version>3.1.2</spring.cloud.openfeign.version>
-        <wire.mock.version>2.33.2</wire.mock.version>
+        <wire.mock.version>2.35.1</wire.mock.version>
     </properties>
 
 </project>
