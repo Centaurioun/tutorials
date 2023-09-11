@@ -207,9 +207,8 @@
         <assembly.plugin.version>2.3</assembly.plugin.version>
         <httpclient.version>3.1</httpclient.version>
         <storm.version>1.2.2</storm.version>
-        <kafka.version>3.3.1</kafka.version>
-        <ignite.version>2.14.0</ignite.version>
-        <ignite-spring-data.version>2.9.1</ignite-spring-data.version>
+        <kafka.version>3.4.0</kafka.version>
+        <ignite.version>2.4.0</ignite.version>
         <gson.version>2.9.1</gson.version>
         <cache.version>1.1.1</cache.version>
         <flink.version>1.5.0</flink.version>
