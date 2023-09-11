@@ -68,7 +68,7 @@
     <properties>
         <httpPort>9080</httpPort>
         <httpsPort>9443</httpsPort>
-        <nimbus-jose-jwt.version>7.3</nimbus-jose-jwt.version>
+        <nimbus-jose-jwt.version>9.0</nimbus-jose-jwt.version>
         <bcprov-jdk15on.version>1.62</bcprov-jdk15on.version>
         <bcpkix-jdk15on.version>1.62</bcpkix-jdk15on.version>
     </properties>
