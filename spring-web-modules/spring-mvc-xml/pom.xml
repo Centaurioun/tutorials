@@ -119,14 +119,22 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>${maven-war-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>
+                        --add-opens java.base/java.lang=ALL-UNNAMED
+                    </argLine>
+                </configuration>
             </plugin>
         </plugins>
     </build>
 
     <properties>
         <!-- Spring -->
-        <org.springframework.version>5.0.2.RELEASE</org.springframework.version>
+        <org.springframework.version>5.2.23.RELEASE</org.springframework.version>
         <spring-boot.version>1.5.10.RELEASE</spring-boot.version>
         <!-- persistence -->
         <mysql-connector-java.version>5.1.40</mysql-connector-java.version>
