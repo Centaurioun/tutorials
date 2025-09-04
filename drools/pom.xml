@@ -58,7 +58,7 @@
     <properties>
         <http-component-version>4.4.16</http-component-version>
         <drools-version>8.32.0.Final</drools-version>
-        <apache-poi-version>5.2.3</apache-poi-version>
+        <apache-poi-version>5.4.0</apache-poi-version>
         <opta-planner-version>8.32.0.Final</opta-planner-version>
     </properties>
 

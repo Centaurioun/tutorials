@@ -29,7 +29,7 @@
     </dependencies>
 
     <properties>
-        <apache.commons.version>3.12.0</apache.commons.version>
+        <apache.commons.version>3.18.0</apache.commons.version>
         <jetbrains.annotations.version>24.0.1</jetbrains.annotations.version>
     </properties>
 
