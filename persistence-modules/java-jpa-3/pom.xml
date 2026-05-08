@@ -84,7 +84,7 @@
     </build>
 
     <properties>
-        <hibernate.version>5.4.14.Final</hibernate.version>
+        <hibernate.version>6.0.0.Final</hibernate.version>
         <eclipselink.version>2.7.4</eclipselink.version>
         <mysql.version>8.0.21</mysql.version>
         <javax.persistence-api.version>2.2</javax.persistence-api.version>
